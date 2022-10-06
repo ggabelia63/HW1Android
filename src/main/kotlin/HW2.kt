@@ -9,10 +9,9 @@ fun  isPalindrome (inputString : String) : Boolean{
     fun main() {
 
         var Palindrome = "asddsa"
-        var nonPalindrome = "sdkqwe"
         if (isPalindrome(Palindrome)) {
-            println("$Palindrome is a Palindrome String")
+            println(true)
         } else {
-            println("$nonPalindrome is not a Palindrome String")
+            println(false)
         }
     }
